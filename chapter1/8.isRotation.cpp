@@ -4,11 +4,7 @@
 using namespace std;
 
 bool isSubstring(string s1, string s2) {
-    if(s2.find(s1) != string::npos) {
-        return true;
-    } else {
-        return false;
-    }
+    return (s2.find(s1) != string::npos);
 }
 
 bool isRotation(string s1, string s2) {
