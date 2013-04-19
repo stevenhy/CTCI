@@ -21,7 +21,9 @@ void remove(ListNode* head) {
             mymap[(*phead)->val] = 1; 
             phead = &((*phead)->next);
        } else {
+            ListNode* del = *phead;
             *phead = (*phead)->next;
+            delete del;
        }
     }
 }
