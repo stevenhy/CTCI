@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// during push op, if the value is <= the minimum, push it also to the min stack
 template <typename T>
 class my_stack {
 private:
