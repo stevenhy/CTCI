@@ -46,5 +46,6 @@ int search(int A[], int n, int target) {
 int main() {
     int A[] = {5, 5, 5, 7, 8, 9, 1, 2, 3, 4, 5};
     cout << search(A, 11, 5) << endl;
+    cout << search(A, 11, 2) << endl;
     return 0;
 }
